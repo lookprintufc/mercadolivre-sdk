@@ -6,9 +6,10 @@
 #This is the official Ruby SDK for the MercadoLibre Marketplace platform.
 =end
 
+
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require_relative "lib/meli/version"
+require "Meli/version"
 
 Gem::Specification.new do |s|
   s.name        = "Meli"
