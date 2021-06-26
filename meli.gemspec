@@ -9,7 +9,7 @@
 
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "Meli/version"
+require_relative "lib/Meli/version"
 
 Gem::Specification.new do |s|
   s.name        = "meli"
