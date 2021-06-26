@@ -12,7 +12,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "meli/version"
 
 Gem::Specification.new do |s|
-  s.name        = "Meli"
+  s.name        = "meli"
   s.version     = Meli::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["MELI"]
