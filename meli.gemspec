@@ -6,10 +6,8 @@
 #This is the official Ruby SDK for the MercadoLibre Marketplace platform.
 =end
 
-#$:.push File.expand_path("../lib", __FILE__)
-module Meli
-  VERSION = '3.0.0'
-end
+$:.push File.expand_path("../lib", __FILE__)
+require_relative "lib/meli/version"
 
 Gem::Specification.new do |s|
   s.name        = "Meli"
